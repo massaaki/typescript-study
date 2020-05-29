@@ -9,7 +9,7 @@ Typescript basicaly is a language that building up on Javascript and add new fea
 ```
 npm install -g typescript
 
-Testing
+To create js from ts file
 tsc filename.ts
 ```
 
