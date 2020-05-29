@@ -7,7 +7,7 @@ Typescript basicaly is a language that building up on Javascript and add new fea
 
 ## Getting start
 ```
-npm install -g npm
+npm install -g typescript
 
 Testing
 tsc filename.ts
