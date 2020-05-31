@@ -1,30 +1,30 @@
-function add(n1: number, n2: number): number {
+function add3(n1: number, n2: number): number {
   return n1 + n2;
 }
 
-function printResult(num: number) {
+function printResult2(num: number) {
   console.log('Result: ' + num);
 }
 
 
-function addAndHandle(n1: number, n2: number, cb:(num: number) => void) {
+function addAndHandle2(n1: number, n2: number, cb:(num: number) => void) {
   const result = n1 + n2;
   cb(result);
 }
 
 
-addAndHandle(2,7, (result) => {
+addAndHandle2(2,7, (result) => {
   console.log(result);
 })
 
 
-function generateError(message: string, code: number): never {
+function generateError2(message: string, code: number): never {
   throw {
     message: message, errorCode: code
   };
 }
 
-generateError('An error ocurred!', 500);
+generateError2('An error ocurred!', 500);
 
 
 

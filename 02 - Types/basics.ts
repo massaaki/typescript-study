@@ -1,6 +1,6 @@
 console.log('Typescript - Types');
 
-function add(n1: number, n2: number, showResult: boolean, resultText: string) {
+function add2(n1: number, n2: number, showResult: boolean, resultText: string) {
   if(typeof n1 !== "number" || typeof n2 !== "number") {
     throw new Error('Incorrect input');
   }
@@ -14,7 +14,7 @@ function add(n1: number, n2: number, showResult: boolean, resultText: string) {
 
 const number1 = 10;
 const number2 = 2.9;
-const printResult = true;
+// const printResult = true;
 const resultText = 'The result is: ';
 
-add(number1, number2, printResult, resultText);
+add2(number1, number2, true, resultText);
