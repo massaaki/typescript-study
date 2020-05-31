@@ -17,7 +17,7 @@ tsc filename.ts
 ## Learning roadmap
 ```
 01. Basics
-02. Configuration
+02. Configuration (tsconfig.json)
 03. Class/Interfaces
 04. Types and features
 05. Generics feature
