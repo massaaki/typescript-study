@@ -10,7 +10,7 @@
   "author": "Massaaki",
   "license": "ISC",
   "dependencies": {
-    "minimist": ">=1.2.3"
+    "minimist": ">=1.2.6"
   },
   "devDependencies": {
     "lite-server": "^2.5.4"
